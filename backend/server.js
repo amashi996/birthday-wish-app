@@ -68,7 +68,7 @@ app.get("/card/:id", (req, res) => {
       <br/><br/>
 
      <button onclick="playMusic()" style="padding:10px 20px;font-size:16px">
-        ▶ Throw More Pom-Pom!!
+        ▶ More Pom-Pom!!
       </button>
 
       <audio id="music" src="https://pixabay.com/music/happy-childrens-tunes-happy-birthday-469282/"></audio>
