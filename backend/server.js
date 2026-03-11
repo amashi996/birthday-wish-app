@@ -60,12 +60,10 @@ app.get("/card/:id", (req, res) => {
   <body style="
     display:flex;
     justify-content:center;
-    align-items:flex-start;
     height:200vh;
     background:#e4ebff;
     font-family:sans-serif;
     text-align:center;
-    padding-top: 40px;
   ">
   
     <div style="
