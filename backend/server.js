@@ -64,7 +64,8 @@ app.get("/card/:id", (req, res) => {
   padding:80px;
   border-radius:25px;
   width:900px;
-  max-width:90%;
+  max-width:50%;
+  min-height: 600px;
   box-shadow:0 10px 30px rgba(0,0,0,0.2);
 ">
 
