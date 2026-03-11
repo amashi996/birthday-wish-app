@@ -29,7 +29,7 @@ app.post("/create", upload.single("photo"), (req, res) => {
   };
 
   res.json({
-    url: `http://localhost:5000/card/${id}`,
+    url: `https://birthday-wish-app-h3vf.onrender.com/card/${id}`,
   });
 });
 
