@@ -58,8 +58,16 @@ app.get("/card/:id", (req, res) => {
     font-family:sans-serif;
     text-align:center;
   ">
+  
+    <div style="
+  background:white;
+  padding:80px;
+  border-radius:25px;
+  width:900px;
+  max-width:90%;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+">
 
-    <div style="background:white;padding:40px;border-radius:20px;max-width:500px;">
       <h1>🎂 Happy Birthday ${card.name}! 🎉</h1>
       <p>${card.message}</p>
 
@@ -67,7 +75,16 @@ app.get("/card/:id", (req, res) => {
 
       <br/><br/>
 
-     <button onclick="playMusic()" style="padding:10px 20px;font-size:16px">
+     <button onclick="playMusic()" style="
+  padding:15px 30px;
+  font-size:20px;
+  border:none;
+  border-radius:10px;
+  background:#ff6b81;
+  color:white;
+  cursor:pointer;
+">
+
         ▶ More Pom-Pom!!
       </button>
 
