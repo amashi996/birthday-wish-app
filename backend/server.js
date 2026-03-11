@@ -65,7 +65,7 @@ app.get("/card/:id", (req, res) => {
   background:#e4ebff;
   font-family:sans-serif;
   text-align:center;
-  padding-top:40px;
+  padding-top:120px;
 ">
   
     <div style="
