@@ -58,13 +58,15 @@ app.get("/card/:id", (req, res) => {
   </head>
 
   <body style="
-    display:flex;
-    justify-content:center;
-    height:200vh;
-    background:#e4ebff;
-    font-family:sans-serif;
-    text-align:center;
-  ">
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  height:100vh;
+  background:#e4ebff;
+  font-family:sans-serif;
+  text-align:center;
+  padding-top:40px;
+">
   
     <div style="
   background:white;
