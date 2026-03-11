@@ -22,7 +22,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-10 bg-pink-100">
+    <div className="min-h-screen flex items-center justify-center p-10 bg-blue-100">
       <div className="bg-white shadow-xl rounded-2xl p-10 max-w-md w-full text-center">
         <h1 className="text-2xl font-bold mb-4">Create Birthday Card 🎉</h1>
 
@@ -48,7 +48,7 @@ export default function App() {
 
         <button
           onClick={createCard}
-          className="px-4 py-2 rounded bg-pink-500 text-white"
+          className="px-4 py-2 rounded bg-blue-500 text-white"
         >
           Generate Card Link
         </button>
