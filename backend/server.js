@@ -53,8 +53,8 @@ app.get("/card/:id", (req, res) => {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100vh;
-    background:#ffe4e6;
+    height:200vh;
+    background:#e4ebff;
     font-family:sans-serif;
     text-align:center;
   ">
