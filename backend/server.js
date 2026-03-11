@@ -42,7 +42,7 @@ app.get("/card/:id", (req, res) => {
     ? `<img src="/uploads/${card.photo}" 
     style="
       width:400px;
-      height:350px;
+      height:550px;
       object-fit: cover;
       border-radius:15px;
       margin-top:15px;
