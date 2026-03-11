@@ -68,10 +68,10 @@ app.get("/card/:id", (req, res) => {
       <br/><br/>
 
       <button onclick="playMusic()" style="padding:10px 20px;font-size:16px">
-        ▶ Throw Pom-Pom
+        ▶ Play Happy Birthday
       </button>
 
-      <audio id="music" src="https://www2.cs.uic.edu/~i101/SoundFiles/HappyBirthday.mid"></audio>
+      <audio id="music" src="https://pixabay.com/music/happy-childrens-tunes-happy-birthday-469282/"></audio>
     </div>
 
     <script>
