@@ -39,7 +39,15 @@ app.get("/card/:id", (req, res) => {
   if (!card) return res.send("Card not found");
 
   const photoHTML = card.photo
-    ? `<img src="/uploads/${card.photo}" style="width:200px;border-radius:15px;margin-top:15px"/>`
+    ? `<img src="/uploads/${card.photo}" 
+    style="
+      width:400px;
+      height:350px;
+      object-fit: cover;
+      border-radius:15px;
+      margin-top:15px;
+      box-shadow:0 6px 20px rgba(0,0,0,0.2);"
+    />`
     : "";
 
   res.send(`
