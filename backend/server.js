@@ -7,6 +7,7 @@ const path = require("path");
 const app = express();
 app.use(cors());
 app.use("/uploads", express.static("uploads"));
+app.use("/music", express.static("uploads"));
 
 const storage = multer.diskStorage({
   destination: "uploads/",
@@ -71,7 +72,9 @@ app.get("/card/:id", (req, res) => {
         ▶ Play Happy Birthday
       </button>
 
-      <audio id="music" src="https://pixabay.com/music/happy-childrens-tunes-happy-birthday-469282/"></audio>
+      <audio id="music">
+        <source src="/music/happy-birthday.mp3" type="audio/mpeg">
+      </audio>
     </div>
 
     <script>
@@ -79,6 +82,7 @@ app.get("/card/:id", (req, res) => {
         document.getElementById('music').play();
         confetti({ particleCount: 150, spread: 100 });
       }
+      
 
       setTimeout(()=>{
         confetti({ particleCount: 200, spread: 120 });
