@@ -1,15 +1,3 @@
-// Full Online Birthday Greeting Card App
-// Features:
-// 🎂 Confetti animation
-// 🎵 Birthday music
-// 🎁 Custom message
-// 📸 Photo upload
-// 🌐 Can be hosted online
-
-/* ================= FRONTEND (React) ================= */
-
-// App.jsx
-
 import { useState } from "react";
 
 export default function App() {
@@ -24,7 +12,7 @@ export default function App() {
     formData.append("message", message);
     formData.append("photo", photo);
 
-    const res = await fetch("http://localhost:5000/create", {
+    const res = await fetch("https://birthday-wish-app-h3vf.onrender.com/create", {
       method: "POST",
       body: formData
     });
