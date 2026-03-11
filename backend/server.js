@@ -64,7 +64,7 @@ app.get("/card/:id", (req, res) => {
   padding:80px;
   border-radius:25px;
   width:900px;
-  max-width:50%;
+  max-width:500px;
   min-height: 600px;
   box-shadow:0 10px 30px rgba(0,0,0,0.2);
 ">
@@ -77,11 +77,11 @@ app.get("/card/:id", (req, res) => {
       <br/><br/>
 
      <button onclick="playMusic()" style="
-  padding:15px 30px;
-  font-size:20px;
+  padding:10px 20px;
+  font-size:16px;
   border:none;
-  border-radius:10px;
-  background:#ff6b81;
+  border-radius:5px;
+  background:#101c6b;
   color:white;
   cursor:pointer;
 ">
